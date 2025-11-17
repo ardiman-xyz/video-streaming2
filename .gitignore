@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# SSL Certificates (IMPORTANT: Keep private keys secure!)
+*.pem
+key.pem
+cert.pem
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
